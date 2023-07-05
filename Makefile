@@ -1,5 +1,5 @@
 help:
-	@echo "Refer to the Makefile"
+	@echo "Refer to the \`Makefile\` to get help"
 
 PYTHON=python3
 SRC_FOLDER=captioncleaner
