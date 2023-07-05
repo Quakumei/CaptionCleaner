@@ -1,7 +1,7 @@
 # .pre-commit-config.yaml
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.1.0  # this is optional, use `pre-commit autoupdate` to get the latest rev!
+    rev: v4.4.0  # this is optional, use `pre-commit autoupdate` to get the latest rev!
     hooks:
     -   id: check-yaml
     -   id: end-of-file-fixer
@@ -11,4 +11,4 @@ repos:
     -   id: check-shebang-scripts-are-executable
     -   id: detect-private-key
     -   id: requirements-txt-fixer
-        files: requirements/*.txt
+        files: requirements/.*\.txt$
